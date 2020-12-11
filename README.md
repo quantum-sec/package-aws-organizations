@@ -1,6 +1,6 @@
-# template-terraform-package
+# package-aws-organizations
 
-{{package_description}}
+This repository contains modules for deploying and managing AWS Organizations resources.
 
 
 ## Using a Terraform Module
