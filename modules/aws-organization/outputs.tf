@@ -10,7 +10,7 @@ output "arn" {
 
 output "management_account_id" {
   description = "The unique identifier of the management account."
-  value       = aws_organizations_organization.org.management_account_id
+  value       = aws_organizations_organization.org.master_account_id
 }
 
 output "management_account_arn" {
